@@ -1,0 +1,25 @@
+{
+    "name": "Freya/Core",
+    "type": "library",
+    "description": "Freya PHP, the extensible PHP framework",
+    "keywords": ["microframework","rest","router"],
+    "homepage": "http://freya.alexpriebe.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex Priebe",
+            "email": "hi@alexpriebe.com",
+            "homepage": "http://www.alexpriebe.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "Psr/Log": "~1.0"
+    },
+    "suggest": {
+        "ext-mcrypt": "Required for HTTP cookie encryption"
+    },
+    "autoload": {
+        "psr-0": { "Slim": "." }
+    }
+}
